@@ -1,38 +1,577 @@
-<?php if( is_home() ) { ?>
-<div class="tbpopup" id="tbpopup-1">
-<div class="tboverlay"></div>
-<div class="tbcontent">
-<div class="tbclose-btn" onclick="thongbaopopup()">&times;</div>
-<div style="font-size:30px;font-weight:bold">Xin chào</div>
-<p>Cảm ơn bạn đã ghé thăm trang web , hiện tại trang không còn hoạt động mong các bạn chuyển trang mới ! <a class="link" href="https://anklong.github.io"> Chuyển Trang</a> </p></p>
-</div>
-</div>
-<?php } ?> 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Chiến Dịch Huyền Thoại Test</title>
+    <meta name="description" content="Tải về apk Chiến Dịch Huyền Thoại 4.2.0 cho Android. Tiên phong mobile eSports" />
+    <meta name="keywords" content="Chiến Dịch Huyền Thoại, Chiến Dịch Huyền Thoại cho android, Chiến Dịch Huyền Thoại tải về android, Chiến Dịch Huyền Thoại apk, Chiến Dịch Huyền Thoại android apk, Chiến Dịch Huyền Thoại tải về" />
+    <meta property="og:image" content="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMF8xNTI1NzI3NjA1XzA3NA/screen-0.jpg?h=500&amp;fakeurl=1&amp;type=.jpg" />
+    <link rel="canonical" href="https://apkpure.com/vn/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" />
+    <link rel="alternate" href="https://m.apkpure.com/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="x-default" />
+    <link rel="alternate" href="https://m.apkpure.com/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="en" />
+    <link rel="alternate" href="https://m.apkpure.com/br/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="pt" />
+    <link rel="alternate" href="https://m.apkpure.com/es/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="es" />
+    <link rel="alternate" href="https://m.apkpure.com/ru/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="ru-RU" />
+    <link rel="alternate" href="https://m.apkpure.com/ar/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="ar" />
+    <link rel="alternate" href="https://m.apkpure.com/cn/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="zh-CN" />
+    <link rel="alternate" href="https://m.apkpure.com/tw/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="zh-TW" />
+    <link rel="alternate" href="https://m.apkpure.com/in/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="hi" />
+    <link rel="alternate" href="https://m.apkpure.com/id/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="id" />
+    <link rel="alternate" href="https://m.apkpure.com/it/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="it-IT" />
+    <link rel="alternate" href="https://m.apkpure.com/nl/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="nl" />
+    <link rel="alternate" href="https://m.apkpure.com/jp/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="ja" />
+    <link rel="alternate" href="https://m.apkpure.com/pl/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="pl" />
+    <link rel="alternate" href="https://m.apkpure.com/de/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="de-DE" />
+    <link rel="alternate" href="https://m.apkpure.com/vn/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="vi-VN" />
+    <link rel="alternate" href="https://m.apkpure.com/fr/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="fr-FR" />
+    <link rel="alternate" href="https://m.apkpure.com/tr/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="tr-TR" />
+    <link rel="alternate" href="https://m.apkpure.com/kr/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="ko-KR" />
+    <link rel="alternate" href="https://m.apkpure.com/ms/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="ms-MY" />
+    <link rel="alternate" href="https://m.apkpure.com/th/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn" hreflang="th-TH" />
+    
+    <meta property="og:site_name" content="APKPure.com" />
+    <meta property="og:title" content="Chiến Dịch Huyền Thoại Test" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#23a86b">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="APKPure">
+    <meta name="format-detection" content="telephone=no" />
+    <script>
+        (function () {
+            function getCookie(b){var f=b+"=";var a=document.cookie.split(";");for(var d=0;d<a.length;d++){var e=a[d];while(e.charAt(0)==" "){e=e.substring(1,e.length)}if(e.indexOf(f)==0){return e.substring(f.length,e.length)}}return null}
+            function setCookie(d,e,h,a,g){var f=d+"="+e;if(h){var b=new Date();b.setTime(b.getTime()+(h*24*60*60*1000));f+="; expires="+b.toGMTString()}f+="; path=/";if(a){f+="; domain="+a}if(g){f+="; secure"}document.cookie=f};
+            window.nextByApkpure = function (u) {if(u){setCookie("apkpure__next", u, 300, 'apkpure.com');}};
+            window.closeMenu=function closeMenu(){var b=document;if(b.getElementsByClassName("ar_fix").length>0){b.getElementById("menu").style.right="-270px"}else{b.getElementById("menu").style.left="-270px"}b.getElementById("shadow").style.display="none";b.getElementsByTagName("body")[0].style["overflow-y"]="auto";b.getElementsByTagName("html")[0].style["overflow-y"]="auto"};window.openMenu=function openMenu(){var b=document;location.hash="menu";if(b.getElementsByClassName("ar_fix").length>0){b.getElementById("menu").style.right="0"}else{b.getElementById("menu").style.left="0"}b.getElementById("shadow").style.display="block";b.getElementsByTagName("body")[0].style["overflow-y"]="hidden";b.getElementsByTagName("html")[0].style["overflow-y"]="hidden"; if(!document.getElementsByClassName('menu-icon')[0].style['background-image'].length > 0) {var ms = document.querySelectorAll('#menu span.menu-icon'); for(var i =0; i<ms.length; i++){ms[i].setAttribute("style", "background-image:url(https://static.apkpure.com/mobile/static/imgs/menu_v5.png)");}}};
+            Redirect={getLangCookie:function(){return getCookie("apkpure__lang")},setLangCookie:function(a){setCookie("apkpure__lang",a,300,"apkpure.com")},isMainURL:function(){return Redirect.lang()==="en"&&'false'==="true"},lang:function(){return"vn"},isShowLangTip:false,langGoll:"",langGoUrl:"",prefix:"https://m.apkpure.com",getQueryString:function(a){var b=new RegExp("(^|&)"+a+"=([^&]*)(&|$)","i");var c=location.search.substr(1).match(b);if(c!=null){return unescape(decodeURI(c[2]))}return null},getRedirectUrl:function(d){var c="";if(Redirect.getQueryString('utm_source')==="pwa"){c="?utm_source=pwa&utm_medium=homesceen&utm_campaign=webapp&launcher=true"}return Redirect.prefix+"/"+d+"/"+c},isBetaLang:function(a){return[].indexOf(a)!==-1?true:false},getNavigatorLang:function(){return Redirect.translateLang(navigator.language)},translateLang:function(a){if(a=="en"||a.indexOf("en-")>=0){return"en"}else{if(a=="br"||a=="pt"||a.indexOf("pt-")>=0){return"br"}else{if(a=="zh-TW"){return"tw"}else{if(a=="cn"||a.indexOf("zh")>=0||a.indexOf("cn-")>=0||a.indexOf("zh-")>=0){return"cn"}else{if(a=="ar"||a.indexOf("ar-")>=0){return"ar"}else{if(a=="jp"||a.indexOf("jp-")>=0||a=="ja"||a.indexOf("ja-")>=0){return"jp"}else{if(a=="es"||a.indexOf("es-")>=0){return"es"}else{if(a=="ru"||a.indexOf("ru-")>=0){return"ru"}else{if(a=="in"||a.indexOf("in-")>=0){return"in"}else{if(a=="id"||a.indexOf("id-")>=0){return"id"}else{if(a=="it"||a.indexOf("it-")>=0){return"it"}else{if(a=="nl"||a.indexOf("nl-")>=0){return"nl"}else{if(a=="pl"||a.indexOf("pl-")>=0){return"pl"}else{if(a=='de'||a.indexOf('de-')>=0){return "de"}else{if(a=='vi'||a.indexOf('vi-')>=0){return "vn"}else{if(a=='fr'||a.indexOf('fr-') >=0){return "fr"}else{if(a=='tr'||a.indexOf('tr-') >=0){return "tr"}else{if(a=='ko'||a.indexOf('ko-') >=0){return "kr"}else{if(a=='ms'||a.indexOf('ms-') >=0){return "ms"}else{if(a=='th'||a.indexOf('th-') >=0){return "th"}else{return "en"}}}}}}}}}}}}}}}}}}}}},check:function(){var b=Redirect.getLangCookie();if(!b){if(!Redirect.isMainURL()){Redirect.setLangCookie(Redirect.lang())}else{var a=Redirect.getNavigatorLang();if(Redirect.isBetaLang(a)){Redirect.isShowLangTip=true;Redirect.langGoll=a;Redirect.langGoUrl=Redirect.getRedirectUrl(a)}else{Redirect.setLangCookie(a);Redirect.run(Redirect.getLangCookie())}}}else{if(b==="menu"){Redirect.setLangCookie(Redirect.lang())}else{if(Redirect.isMainURL()){Redirect.run(b)}}}},run:function(a){if(a&&a!=="en"){location.href=Redirect.getRedirectUrl(a)}}};
+            Redirect.check();
+            window.policy_review = {effective:'20180525',isReview:function(){return getCookie("apkpure__policy_review") != policy_review.effective},setReview:function (){setCookie("apkpure__policy_review",policy_review.effective,300,"apkpure.com");document.getElementById('policy-info').style.display='none'}};
+            window.sampleByApkpure={init:function(){var e=getCookie("apkpure__sample");if(e)window.sampleByApkpure.setFlag(e);else{var p=Math.random();setCookie("apkpure__sample",p,1,"apkpure.com"),window.sampleByApkpure.setFlag(p)}},setFlag:function(e){Number(window.sampleByApkpure.rate)>Number(e)&&(window.sampleByApkpure.collect=!0)},collect:!1,rate:"0.001"};
+            window.sampleByApkpure.init();
+        })()
+    </script>
+    <link rel="apple-touch-icon" sizes="60x60"  href="https://image.winudf.com/v2/upload/images/pwa_icon.png?w=60&q=100">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://image.winudf.com/v2/upload/images/pwa_icon.png?w=76&q=100">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://image.winudf.com/v2/upload/images/pwa_icon.png?w=120&q=100">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://image.winudf.com/v2/upload/images/pwa_icon.png?w=152&q=100">
+    <link rel="manifest" href="/manifest_v11.json">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="preconnect" href="//a.apkpure.com">
+    <link rel="dns-prefetch" href="//a.apkpure.com">
+    <link rel="preconnect" href="//i.apkpure.com">
+    <link rel="dns-prefetch" href="//i.apkpure.com">
+    <link rel="preconnect" href="//image.winudf.com">
+    <link rel="dns-prefetch" href="//image.winudf.com">
+    <link rel="preconnect" href="//static.apkpure.com">
+    <link rel="dns-prefetch" href="//static.apkpure.com">
+    <link rel="preconnect" href="//download.apkpure.com">
+    <link rel="dns-prefetch" href="//download.apkpure.com">
+    <link rel="preconnect" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="preconnect" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="preconnect" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="preload" href="https://i.apkpure.com/user_v1002.js?hl=vi-VN&mobile=1&r=0.21700801732430408" as="script">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" as="script">
+    <link rel="preload" href="https://static.apkpure.com/mobile/static/js/lazyload-11.0.6.min.js" as="script">
+    <link rel="preload" href="/language_v1034.js?hl=vi-VN" as="script">
+    <link rel="preload" href="https://static.apkpure.com/mobile/static/js/global_v1235.min.js" as="script">
+    <link rel="preload" href="https://static.apkpure.com/mobile/static/css/base64_v1235.css" as="style">
+    <link rel="preload" href="//a.apkpure.com/analytics_v1022.js" as="script">
+    <style> blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}html,body{overflow-x:hidden}a{text-decoration:none}ul,li,ol{list-style:none}html{font-size:62.5%}body{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:1.4rem;background:#f2f5f9;color:#333;font-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}input[type="button"],input[type="submit"],input[type="reset"],input[type="file"]::-webkit-file-upload-button,button{border-radius:0}img{vertical-align:middle;border:0}a.logo>img{aspect-ratio:25 / 6}input{outline:none;border-radius:0;box-shadow:0 0;border:none}input[type="search"]::-webkit-search-cancel-button{display:none}.fl{float:left}.fr{float:right}.cl{clear:both;font-size:0px;height:0;line-height:0;overflow:hidden}.nowrap{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.h30{height:30px}.h50{height:50px}.h20{height:20px}.p10{padding:10px}.box{margin-bottom:10px;width:auto}.box-group{margin-bottom:0}.stars{display:block;background:url("https://static.apkpure.com/mobile/static/imgs/stars_fill.svg") repeat-x;height:10px;width:50px;clear:both;direction:ltr;position:relative}.stars .score{display:block;background:url("https://static.apkpure.com/mobile/static/imgs/stars.svg") repeat-x;height:10px;width:50px}.stars,.stars .score{background-size:10px}.stars span.star{position:absolute;left:52px;line-height:10px;color:#fa8b16;font-size:1rem;top:1px}.stars-info{float:left;max-width:70px;font-size:1.1rem;height:15px;line-height:15px;margin-left:5px;color:#777;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}#backtop{display:none;box-shadow:0 2px 4px 0 rgba(0,0,0,0.3);position:fixed;bottom:55px;right:10px;width:40px;height:40px;background:#24cd77 url("https://static.apkpure.com/mobile/static/imgs/backtop.png") no-repeat center;background-size:15px;z-index:99999;border-radius:50%}#searching{display:none;position:fixed;top:0;left:0;right:0;height:45px;z-index:999999;background:rgba(255,255,255,0.8);text-align:center;font-size:18px;color:#555;line-height:45px}.loadmore{display:block;background:#FEFFFF;color:#666;text-decoration:none;margin-bottom:10px;text-align:center;font-size:1.4rem;padding:10px 0}.paging{text-align:center;margin:0 auto 20px auto}.paging li{display:inline-block;margin:0 2px}.paging li a{display:inline-block;text-align:center;width:30px;height:30px;line-height:30px;text-decoration:none;background:#fff;color:#777;box-shadow:0 1px 2px 0 rgba(0,0,0,0.15)}.paging li.active a{background:#24cd77;color:#fff}.paging li.active a:hover{background:#24cd77;color:#fff}.paging li a:hover{background:#f5f5f5}.facebook-like{overflow:hidden}.facebook-like iframe{margin:10px auto;display:block}.main{padding-top:55px}.main-b{padding-top:55px}.anchor-download{height:0}.anchor-download a{height:0;font-size:0}.footer{font-size:1.4rem;overflow:hidden}.footer .t{color:#696969;text-align:center;background:#ffffff;border-top:1px solid #e2e2e3}.footer .t p{height:38px;line-height:38px;display:block;border-bottom:1px solid #efefef}.footer .t a{color:#696969}.footer .t a.dv,.footer .t span{color:#4579DD}.footer .m{background:#f8f8f8;line-height:26px;color:#696969;text-align:center;padding:10px 20px 10px 20px;border-bottom:1px solid #e1e1e1;box-shadow:0 1px #fff}.footer .m a{color:#696969}.footer .m .line{margin:0 8px;color:#999}.footer .m .locale-change a{padding:0 8px;display:inline-block}.footer .m .locale-change a.on{background:url("https://static.apkpure.com/mobile/static/imgs/locale_on.png") no-repeat left center;background-size:16px 16px;padding:0 8px 0 13px}.footer .b{line-height:26px;color:#696969;text-align:center;padding:20px;font-size:1.2rem;background:#f2f5f9}.footer .b a{color:#696969}.footer .b .line{margin:0 8px;color:#999}.footer .follow-wrap{padding:5px 0}.footer .follow{background-image:url("https://static.apkpure.com/mobile/static/imgs/user_v3.png");background-size:40px;width:36px;height:36px;display:inline-block;margin:0 3px}.footer .follow span{display:none}.footer .fb{background-position:0 0}.footer .tw{background-position:0 -36px}.footer .glp{background-position:0 -402px}.footer .vk{background-position:-2px -304px;border-radius:50%}.footer .ok_ru{background-position:-2px -355px;background-color:#F6822A;border-radius:50%}.indexmain{padding-top:10px}.header{padding-top:50px}.navigation{overflow:hidden;background:#fff}.navigation li{float:left;width:33.33%;text-align:center}.navigation li a{display:block;padding:10px 0}.navigation li .icon{display:inline-block;width:30px;height:30px;line-height:30px;border-radius:15px}.navigation li .icon img{margin-top:-3px;aspect-ratio:10 / 7}.navigation li .text{margin-top:5px;font-size:1.4rem;color:#777}.box-title{background:#fff;padding:10px 15px;margin:0;line-height:30px;overflow:hidden}.box-title .tit1,.box-title .tit{float:left;font-size:1.4rem;position:relative;color:#555}.box-title .tit1{padding-left:30px}.box-title .tit1 .gbg,.box-title .tit1 .abg,.box-title .tit1 .tbg{border-radius:50%;background:#24cd77 center no-repeat;background-size:20px;width:26px;height:26px;display:block;position:absolute;top:50%;margin-top:-13px;left:0}.box-title .tit1 .gbg{background-image:url("https://static.apkpure.com/mobile/static/imgs/games.png")}.box-title .tit1 .abg{background-image:url("https://static.apkpure.com/mobile/static/imgs/apps.png")}.box-title .tit1 .tbg{background-image:url("https://static.apkpure.com/mobile/static/imgs/topics.png")}.box-title .more{float:right}.box-title .more a{color:#666;font-size:1.4rem}.box-title .arrow-right{display:inline-block;position:relative;top:-1px;width:6px;height:6px;border:2px solid #868686;border-right:0;border-bottom:0;-webkit-transform:rotate(135deg);transform:rotate(135deg)}.box-title .sorting{float:right}.box-title .sorting a{color:#666;font-size:1.4rem;margin-left:10px}.box-title .sorting a.selected{color:#24cd77;font-size:1.4rem}.box-title .sorting .select{overflow:hidden}.box-title .sorting select{direction:rtl;font-size:1.4rem;color:#24cd77;padding:0px 8px;width:100px;margin-right:5px;border:none;box-shadow:none;background:transparent;background-image:none;-webkit-appearance:none;appearance:none}.box-title .sorting select:focus{outline:none}.box-wrap{overflow:hidden;display:block;margin:0 5px 0 15px}.box-wrap li{float:left;margin-bottom:10px}@media screen and (min-width: 0px) and (max-width: 479px){.box-wrap li{width:33.33%}}@media screen and (min-width: 480px){.box-wrap li{width:16.66%}}.box-wrap a{margin-right:10px;background:#fff;overflow:hidden;padding:8px;position:relative;display:block;color:#333}.box-wrap a dt{text-align:center;border-radius:4px;background:#f8f8f8}.box-wrap a dt img{width:100%;aspect-ratio:1 / 1}.box-wrap a:active,.box-wrap a:hover{background:#f9f9f9}.box-wrap .d1{margin-top:3px;height:4rem;line-height:2rem;font-size:1.4rem;color:#333;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;display:-moz-box;display:box;-webkit-line-clamp:2;-moz-line-clamp:2;-line-clamp:2;-webkit-box-orient:vertical}.box-wrap .d1 a{font-size:1.4rem;color:#333}.box-wrap .d2{margin-top:10px;margin-right:25px}.box-wrap .d2 a{font-size:1.3rem;color:#666}.box-wrap .d3{margin-top:3px}.box-wrap .d4{position:absolute;bottom:0;right:0;display:none}.box-wrap .d4 a{padding:5px;display:block;width:30px;height:30px}.box-wrap .d4 a:active,.box-wrap .d4 a:hover{background-color:#F5F6F7}.box-scroll{overflow-x:auto;margin:0 auto;position:relative;padding:5px 0 20px;direction:ltr;background:#fff}.box-scroll.swiper-container-free{overflow:inherit}.box-scroll .bs-s{z-index:1;white-space:nowrap;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none;-webkit-text-size-adjust:none;text-size-adjust:none}.box-scroll a{display:inline-table;width:18.66666666666vw;margin-left:4.6vw;background:#fff;overflow:hidden;padding:5px 0;position:relative;color:#333}.box-scroll a:last-child{margin-right:10px}.box-scroll a:first-child{margin-left:4vw}.box-scroll a dt{text-align:center;width:18.66666666666vw;height:18.66666666666vw}.box-scroll a dt img{aspect-ratio:1 / 1;width:100%}.box-scroll a:active,.box-wrap a:hover{background:#f9f9f9}.box-scroll .d1{white-space:normal;word-break:break-all;margin-top:3px;height:40px;line-height:20px;font-size:1.4rem;color:#333;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;display:-moz-box;display:box;-webkit-line-clamp:2;-moz-line-clamp:2;-line-clamp:2;-webkit-box-orient:vertical}.box-scroll .d2{margin-top:10px;margin-right:25px}.box-scroll .d3{margin-top:3px}.box-scroll-l{display:none}.box-l{margin:10px 0;height:0px;font-size:0px;border-bottom:1px solid #ccc;box-shadow:0 1px #fff}.pre-ul{background:white}.pre-ul li{padding:0 15px}.pre-ul li:last-child dl{border-bottom:0}.pre-ul dl{width:100%;padding:10px 0;border-bottom:1px solid #e0e0e0;position:relative}.pre-ul a{display:flex;width:100%;background:#fff}.pre-ul .dl-l{width:90px;height:75px}.pre-ul .dl-l img{width:75px;height:75px}.pre-ul .dl-r{flex:1;overflow:hidden}.pre-ul .dl-r .tit,.pre-ul .dl-r .dev,.pre-ul .dl-r .category{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.pre-ul .dl-r .tit{color:#555;font-size:1.4rem;margin-top:7.5px}.pre-ul .dl-r .dev,.pre-ul .dl-r .count,.pre-ul .dl-r .category{color:#777;font-size:1.3rem;margin-top:6px}.pre-ul.pre-sales .dl-r{padding-right:60px}.pre-ul .price{line-height:2rem;text-align:right;position:absolute;top:10px;bottom:10px;right:0;display:flex;flex-direction:column;padding-right:0;justify-content:center;align-items:flex-end}.pre-ul .price .price-new{color:#111;font-weight:500;font-size:1.5rem}.pre-ul .price .price-old{color:#666;font-size:1.2rem;text-decoration:line-through}.pre-ul .price .price-disco{font-weight:700;padding:0 6px;color:white;background:#24cd77}.hot-ul{background:white;padding:5px 15px;overflow:hidden}.hot-ul li{width:50%;float:left;margin-bottom:10px}.hot-ul li dl{display:flex;width:100%}.hot-ul li dd{flex:1;overflow:hidden}.hot-ul li dt{border:1px solid #eff3f9;width:55px;height:55px;background:#e9eff2;overflow:hidden;margin-right:8px;-moz-border-radius:20%;-webkit-border-radius:20%;border-radius:20%}.hot-ul li dt img{width:100%;height:100%}.hot-ul li .tit{color:#555;font-size:1.4rem;line-height:2rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.hot-ul li .category{color:#777;font-size:1.3rem;margin-top:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.choice-wrap{background:white;margin-bottom:10px}.choice-wrap a{color:#666}.choice-wrap i{background:url("https://static.apkpure.com/mobile/static/imgs/stars.svg") repeat-x;display:inline-block;height:15px;background-size:15px;width:15px;top:2px;position:relative}.choice-wrap ul li{max-width:640px;margin:0 auto}.choice-wrap ul li a{display:block}.choice-wrap ul li .wrap{padding:12px 0;margin:0 15px;border-bottom:1px solid #f2f2f2}.choice-wrap ul li .wrap::after{content:"";clear:both;display:table}.choice-wrap ul li:last-child .wrap{border-bottom:0}.choice-wrap ul li .banner{position:relative;text-align:center;background:#f8f8f8 url("https://static.apkpure.com/mobile/static/imgs/lazy_img.png") no-repeat center center}.choice-wrap ul li .banner .lazy{padding-top:48%;width:100%;height:0;background-repeat:no-repeat;background-size:100%}.choice-wrap ul li .icon{float:left;margin-right:10px}.choice-wrap ul li .icon img{height:60px;width:60px;display:block;border-radius:4px}.choice-wrap ul li .info{overflow:hidden;margin-top:8px}.choice-wrap ul li .tit{font-weight:600;padding-right:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.choice-wrap ul li .des{margin-top:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.choice-wrap ul li .wrap.banner-wrap{position:relative;padding-top:0}.choice-wrap ul li .wrap.banner-wrap .icon{margin-top:-35px}.choice-wrap ul li .wrap.banner-wrap .des{margin-top:10px;padding-left:0;white-space:unset;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}.choice ul li{box-shadow:0 2px 3px 0 rgba(0,0,0,0.15);margin-bottom:10px}.share-hide{display:none}.share-menu{visibility:hidden;opacity:0}.share-wrap{background:#f2f5f9;padding:10px 8px;height:32px;text-align:center;white-space:nowrap;text-overflow:ellipsis}.share-counter{line-height:32px;font-size:11.4px;cursor:pointer;font-family:helvetica,arial,sans-serif;font-weight:700;text-transform:uppercase;display:inline-block;position:relative;vertical-align:top;height:auto;margin:0 5px;padding:0 6px;left:-1px;background:#ebebeb;color:#32363b;transition:all .2s ease}.share-counter:after{top:30%;left:-4px;content:"";position:absolute;border-width:5px 8px 5px 0;border-style:solid;border-color:transparent #ebebeb transparent transparent;display:block;width:0;height:0}.share-bottom-counter{right:46px;display:block;border-radius:4px;background-color:#fff;color:#666;position:absolute;height:25px !important;padding:2px 5px;line-height:12px;text-align:center;top:5.5px;font-size:12px}.nav{background:#24cd77;position:fixed;top:0;width:100%;height:45px;line-height:45px;z-index:999}.inav{position:absolute}.nav .menu{width:45px}.nav .n{position:relative;width:100%;display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal}.nav .l{width:100px;text-align:center}.nav .l a{font-size:1.8rem;font-weight:600;color:#fff}.nav .c{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;margin:0 45px 0 0;text-align:center}.nav .anim .c{margin-right:50px;-webkit-transition:margin-right 500ms ease;transition:margin-right 500ms ease}.nav .c ul{width:100%;display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal}.nav .c li{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1}.nav .r{position:absolute;right:0;top:0;z-index:99999}.nav .r a{display:block;width:45px;height:45px;text-align:center}#so{display:none;position:absolute;width:100%;left:0;top:0;height:45px;background:rgba(0,0,0,0);z-index:999999}.so{height:35px;line-height:35px;margin-top:5px;background:#24cd77;width:100%;display:-webkit-box;display:box;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal}.so .bb{width:40px}.so .bb a{display:block;width:35px;height:35px;text-align:center;padding-left:5px}.so .arrow-left{display:inline-block;position:relative;top:1px;right:5px;width:10px;height:10px;border:2px solid #fff;border-right:0;border-bottom:0;-webkit-transform:rotate(135deg);transform:rotate(135deg)}.so .ll{background:#fff;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;border-radius:4px}.so .cc{width:40px;display:none;background:#fff}.so .cc a{display:block;width:40px;height:35px;background:url("https://static.apkpure.com/mobile/static/imgs/clear.png") no-repeat center center;background-size:15px 15px}.so .rr{width:50px;background-size:20px 20px !important;margin:0 5px;border-radius:4px;background-color:white !important}.so .rr input{width:50px;background:rgba(255,0,0,0);height:35px}.so .query{display:block;box-sizing:border-box;padding-left:5px;background:rgba(255,0,0,0);height:35px;width:100%;font-size:14px}.so .twitter-typeahead{display:block !important;box-sizing:border-box;width:100%}.so .tt-hint{color:#999 !important}.so .tt-menu{background-color:#FFFFFF;border:1px solid rgba(0,0,0,0.2);border-radius:5px;box-shadow:0 5px 10px rgba(0,0,0,0.2);margin-top:6px;padding:8px 0;width:100%}.so .tt-suggestion{font-size:16px;line-height:24px;padding:3px 20px;color:#333;display:block;word-break:break-all}.so .tt-suggestion.tt-cursor,.so .tt-suggestion:active{background-color:#24cd77;color:#FFFFFF}@keyframes bgshake{from,to{background-position:center 5.5px}25%{background-position:17px center}50%{background-position:center 9.5px}75%{background-position:13px center}}.search-load{-webkit-animation-name:bgshake;animation-name:bgshake;-webkit-animation-duration:.75s;animation-duration:.75s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.aegon-warp{position:relative;width:100%;height:65px;background:-webkit-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%);background:linear-gradient(to bottom, #fff 0%, #f6f6f6 47%, #ededed 100%);border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0}.aegon-warp a{display:block;position:relative;height:65px;color:#555 !important}.aegon-warp .icon{position:absolute;top:10px;left:10px;width:45px;height:45px}.aegon-warp .icon img{width:45px;height:45px}.aegon-warp .text{padding:0 95px 0 65px}.aegon-warp .tit{font-size:14px;line-height:16px;padding-top:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-shadow:0 1px 1px #fff}.aegon-warp .des{font-size:12px;line-height:14px;padding-top:6px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-shadow:0 1px 1px #fff}.aegon-warp .desc{padding-top:12px;white-space:normal;word-break:break-all;line-height:20px;font-size:12px;color:#555;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;display:-moz-box;display:box;-webkit-line-clamp:2;-moz-line-clamp:2;-line-clamp:2;-webkit-box-orient:vertical}.aegon-warp .btn{position:absolute;width:80px;height:30px;top:17px;right:10px;font-size:14px;background:#3FC48F;line-height:30px;text-align:center;color:#fff;text-decoration:none;border-radius:5px;overflow:hidden}.aegon-warp .btn-outline{background:white;color:#24cd77;border:solid 1px #24cd77}.slideBox{position:relative;overflow:hidden;margin:0 auto 10px;max-width:640px;direction:ltr}.slide-banner{margin:0 auto}.slideBox .bg{padding-top:48.8%;background:#eee url("https://static.apkpure.com/mobile/static/imgs/lazy.png") no-repeat center center}.slideBox .thd{height:28px;line-height:28px;overflow:hidden;position:absolute;left:0;bottom:0;width:100%;z-index:1;background:rgba(0,0,0,0.3)}.slideBox .thd li{height:28px;line-height:28px;color:#fff;font-size:1.2rem;padding-left:20px;padding-right:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.slideBox .hd{height:5px;overflow:hidden;position:absolute;right:9px;bottom:11.5px;z-index:2}.slideBox .hd ul li{float:left;margin-right:5px;width:5px;height:5px;border-radius:5px;line-height:5px;text-align:center;background:#fff;cursor:pointer;filter:alpha(opacity=40);opacity:0.4;text-indent:-9999px}.slideBox .hd ul li.on{filter:alpha(opacity=100);opacity:1}.slideBox .bd{position:absolute;z-index:0;width:100%;height:100%}.slideBox .bd li{position:relative;text-align:center;background:#eee url("https://static.apkpure.com/mobile/static/imgs/lazy.png") no-repeat center center}.slideBox .bd li img{vertical-align:top;width:100%}.slideBox .bd li .lazygb_banner{vertical-align:top;padding-top:48.828125%;width:100%;height:0;background-repeat:no-repeat;background-size:100%}.slideBox .bd li a{-webkit-tap-highlight-color:rgba(0,0,0,0)}.slideBox .prev,.slideBox .next{display:block;position:absolute;top:0;width:27px;height:100%;z-index:10;background-size:27px 44px;background-position:center;background-repeat:no-repeat}.slideBox .prev{left:3px;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")}.slideBox .next{right:3px;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")}.index-topic-wrap{position:relative;overflow-x:auto;height:148px;background:#fff;padding-left:15px}.index-scroll-topic-wrap{z-index:1;white-space:nowrap;user-select:none;height:138px;padding-right:15px;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none}.lazy_topic{width:215px;border:none;aspect-ratio:43 / 21}.index-topic-item{background:#eee url("https://static.apkpure.com/mobile/static/imgs/lazy.png") no-repeat center center;width:215px;height:105px;overflow:hidden}.index-topic-item-tit{width:215px;height:30px;line-height:30px;background:linear-gradient(top, transparent 0, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.8) 100%);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.index-scroll-topic-wrap a{display:inline-block;font-size:1.4rem;text-align:center;color:#666;margin-right:5px}.cmt-wrap{position:relative;min-height:150px}.cmt-loading-text{position:absolute;left:0;top:0;bottom:0;right:0;text-align:center;height:30px;line-height:30px;margin:auto auto 10px}.cmt-no-posts{color:#24cd77;line-height:107px;text-align:center;display:none}.disqus-title{padding:10px 15px;line-height:30px;overflow:hidden;color:#555;font-size:1.4rem;background:#fff}.disqus{background:#fff;margin-bottom:10px}#disqus_thread{padding:10px}.details-title{line-height:25px;color:#555;font-size:1.3rem;margin:0 15px 10px 15px;word-wrap:break-word}.details-title a{color:#555;font-size:1.3rem}.details-title span{color:#24cd77}.list-title{line-height:25px;color:#555;font-size:1.4rem;margin:0 15px 10px 15px;word-wrap:break-word;word-break:break-all}.list-title a{color:#555}.list-title span{color:#24cd77}.market-banner{-webkit-tap-highlight-color:rgba(0,0,0,0);margin:0 auto 10px auto;max-width:640px;background:#eee url("https://static.apkpure.com/mobile/static/imgs/lazy.png") no-repeat center center}.market-banner .lazybg{padding-top:48.828125%;width:100%;height:0;background-repeat:no-repeat;background-size:100%}.faq-content{word-wrap:break-word;word-break:break-all;line-height:30px;font-size:14px;color:#666;padding:20px;margin-top:40px}.faq-content h4{font-size:16px}.ad-box{width:100%;overflow:hidden;text-align:center;margin-bottom:10px}.ad-box-auto{overflow:hidden;text-align:center;margin-bottom:10px}.ad-box-mid-auto{overflow:hidden;text-align:center;margin:10px 0}ins.adsbygoogle .ad-js-box{display:none}ins.adsbygoogle[data-ad-status="unfilled"] .ad-js-box{display:block}.dotting{display:inline-block;min-width:2px;min-height:2px;box-shadow:2px 0 currentColor, 6px 0 currentColor, 10px 0 currentColor;-webkit-animation:dot 2.8s infinite step-start both;animation:dot 2.8s infinite step-start both;*zoom:expression(this.innerHTML = '...')}.dotting:before{content:'...'}.dotting::before{content:''}:root .dotting{margin-right:8px}@-webkit-keyframes dot{25%{box-shadow:none}50%{box-shadow:2px 0 currentColor}75%{box-shadow:2px 0 currentColor, 6px 0 currentColor}}@keyframes dot{25%{box-shadow:none}50%{box-shadow:2px 0 currentColor}75%{box-shadow:2px 0 currentColor, 6px 0 currentColor}}.fancybox-container{z-index:999999 !important}.ar_fix .fl{float:right}.ar_fix .fr{float:left}.ar_fix .box-title .tit1{float:right}.ar_fix .box-title .more{float:left}.ar_fix .box-title .tit1 .gbg,.ar_fix .box-title .tit1 .abg,.ar_fix .box-title .tit1 .tbg{left:auto;right:0}.ar_fix .box-title .tit1{padding-left:0;padding-right:35px}.ar_fix .box-title .arrow-right{-webkit-transform:rotate(315deg);transform:rotate(315deg)}.ar_fix .box-title .sorting{float:left}.ar_fix .box-title .sorting select{direction:ltr;margin-right:0;margin-left:5px}.ar_fix .box-title .sorting .select{background-position:center left}.ar_fix .box-scroll a dl{direction:rtl}.ar_fix .stars span.star{right:52px;left:auto}.ar_fix .so .query{padding-left:0;padding-right:5px}.ar_fix .stars-info{float:right}.ar_fix .aegon-warp .icon{left:auto;right:10px}.ar_fix .aegon-warp .text{padding:0 65px 0 95px}.ar_fix .aegon-warp .btn{right:auto;left:10px}.ar_fix .nav .r{right:auto;left:0}.ar_fix .nav .anim .c{margin-right:0;margin-left:50px}.ar_fix .nav .c{margin:0 0 0 45px}.ar_fix .so .arrow-left{-webkit-transform:rotate(315deg);transform:rotate(315deg)}.ar_fix .hot-ul li dt{margin-right:0;margin-left:8px}.ar_fix .mfp-close{left:0 !important;right:auto !important}.ar_fix .choice-wrap ul li .icon{float:right;margin-right:0;margin-left:10px}.ar_fix .choice-wrap ul li .tit{padding-left:10px;padding-right:0}.ar_fix .pre-ul.pre-sales .dl-r{padding-right:0;padding-left:60px}.ar_fix .top-list li.w5 dl dd.price{right:auto;left:0}.menu_html{overflow-y:hidden !important}.menu,.lang-tip{-webkit-transition:all 500ms cubic-bezier(0.165, 0.84, 0.44, 1);-moz-transition:all 500ms cubic-bezier(0.165, 0.84, 0.44, 1);-o-transition:all 500ms cubic-bezier(0.165, 0.84, 0.44, 1);transition:all 500ms cubic-bezier(0.165, 0.84, 0.44, 1);-webkit-transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);-moz-transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);-o-transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1)}.menu{transition-duration:300ms;position:fixed;top:0;left:-270px;height:100%;overflow-x:hidden;overflow-y:auto;z-index:10001;padding-bottom:60px;min-width:200px;width:60%;max-width:251px;background:white}.menu-red{width:8px;height:8px;border-radius:50%;background-color:#FC2C1F;position:absolute;right:8px;top:10px;z-index:1;display:none}.menu-btn{padding:13px 0;width:45px}.so .menu-btn{margin-top:-5px}.menu-btn .bar_1,.menu-btn .bar_2,.menu-btn .bar_3{position:relative;display:block;width:21px;height:3px;margin:5px auto;background-color:#fff;border-radius:10px}.menu-btn .bar_1{margin-top:0}.menu-btn .bar_3{margin-bottom:0}.menu-btn-close .bar_1{-webkit-transform:translateY(8px) rotate(-45deg);-ms-transform:translateY(8px) rotate(-45deg);transform:translateY(8px) rotate(-45deg);background-color:#555}.menu-btn-close .bar_2{opacity:0}.menu-btn-close .bar_3{-webkit-transform:translateY(-8px) rotate(45deg);-ms-transform:translateY(-8px) rotate(45deg);transform:translateY(-8px) rotate(45deg);background-color:#555}.menu-group{padding-top:10px}.menu-group li a{display:block}.menu-group li a.on .menu-only-text{color:#24cd77}.menu-group li a.on{position:relative}.menu-group li a.on:before{content:'';position:absolute;width:0;height:0;left:20px;top:50%;margin-top:-7px;border-top:6px solid transparent;border-left:6px solid #24cd77;border-bottom:6px solid transparent}.menu-border{border-bottom:solid 1px #E0E0E0;padding-bottom:10px}.menu-layer{padding:6px 0 6px 15px;position:relative;top:-3px}.menu-text{margin-left:8px}.menu-only-text{padding:10px 0 10px 20px}.menu-user-layer{padding:6px 35px 6px 15px;position:relative}.menu-user-layer img{position:relative;top:-3px;border-radius:50%}.menu-layer,.menu-only-text,.menu-user-layer{color:#555;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.menu-icon{display:inline-block;background-size:24px;height:24px;width:24px;margin:auto;position:relative;top:6px}.menu-icon-game{background-position:0 -48px}.menu-icon-app{background-position:0 0}.menu-icon-category{background-position:0 -24px}.menu-icon-trending{background-position:0 -216px}.menu-icon-search{background-position:0 -144px}.menu-icon-iphone{background-position:0 -168px}.menu-icon-topic{background-position:0 -96px}.menu-icon-downloader{background-position:0 -288px}.menu-icon-home{background-position:0 -72px}.menu-icon-choice{background-position:0 -120px}.menu-icon-pre{background-position:0 -240px}.menu-icon-sale{background-position:0 -192px}.menu-user,.menu-lang{position:absolute;right:25px}.menu-user{top:22px}.menu-lang{top:16px}.menu-lang-li{position:relative}.menu-lang-li .menu-only-text{padding-right:35px}.menu-user-down,.menu-lang-down{border-top:6px solid rgba(0,0,0,0.54);border-left:6px solid transparent;border-right:6px solid transparent}.menu-user-up,.menu-lang-up{border-bottom:6px solid rgba(0,0,0,0.54);border-left:6px solid transparent;border-right:6px solid transparent}.menu-locals{display:none}.menu-locals .menu-only-text{padding-left:35px}.menu-last{margin-bottom:80px}.menu-hide{display:none}.menu-center{display:none}.shadow{display:none;background:rgba(0,0,0,0.5);position:fixed;top:0;height:100%;left:0;right:0;z-index:10000;padding-bottom:60px}.ar_fix .menu{left:auto;right:-270px}.ar_fix .menu-btn,.ar_fix .menu-open{left:auto;right:0}.ar_fix .menu-user-layer{padding:6px 15px 6px 35px}.ar_fix .menu-layer{padding:6px 15px 6px 0}.ar_fix .menu-text{margin-left:0;margin-right:8px}.ar_fix .menu-only-text{padding:10px 20px 10px 0}.ar_fix .menu-user,.ar_fix .menu-lang{right:auto;left:25px}.ar_fix .menu-lang-li .menu-only-text{padding-left:35px}.ar_fix .menu-locals .menu-only-text{padding-right:35px;padding-left:0}.ar_fix .menu-group li a.on:before{border-right:6px solid #24cd77;border-left:none;left:auto;right:20px}.ar_fix .menu-red{left:8px;right:auto}.lang-tip{position:fixed;width:100%;bottom:-135px;height:130px;z-index:10002;background:white;box-shadow:0 -1px 8px 0 rgba(0,0,0,0.15);border-top:5px solid #24cd77}.lang-hide{display:none}.lang-tip-open{bottom:0}.lang-tip .icon{float:left;margin:25px 25px 0}.lang-reason{padding:15px 25px 0 0;margin-bottom:10px;text-overflow:ellipsis;overflow:hidden;height:40px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;font-size:1.6rem;line-height:20px}.lang-reason strong{padding:0 5px}.lang-go{overflow:hidden;padding:15px 25px}.lang-go a{float:right;display:inline-block;text-align:center;min-width:70px;padding:0 5px;height:32px;line-height:32px;font-size:1.3rem;box-sizing:border-box}.lang-no{color:#24cd77;border:solid 1px #24cd77}.lang-yes{background:#24cd77;color:white;margin-left:10px}.ar_fix .lang-tip .icon{float:right}.ar_fix .lang-reason{padding:15px 0 0 25px}.ar_fix .lang-go a{float:left}.ar_fix .lang-yes{margin-left:0;margin-right:10px}@media (min-width: 640px){.box-scroll a{width:75px;margin-left:10px}.box-scroll a:first-child{margin-left:15px}.box-scroll a dt{width:75px;height:75px}}
+ </style>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61066224-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-61066224-5', {'sample_rate': 10,'use_amp_client_id': true});
+    </script>
+    
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "APKPure",
+            "url": "https://m.apkpure.com/vn",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://m.apkpure.com/vn/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Corporation",
+            "name": "APKPure",
+            "url": "https://m.apkpure.com/vn",
+            "logo": "https://static.apkpure.com/mobile/static/imgs/logo_v1.png",
+            "sameAs": [
+                "https://www.facebook.com/longmen06",
+                "https://twitter.com/LongMenDev",
+                "https://vk.com/longmen06",
+                "https://www.youtube.com/channel/longmenjailbreak"
+            ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Trò chơi",
+                    "item": "https://m.apkpure.com/vn/game"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Tác vụ",
+                    "item": "https://m.apkpure.com/vn/game_action"
+                }
+            ]
+        }
+    </script>
+    
+        
+        
+        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6510778225276763" crossorigin="anonymous"></script>
+        
+        
+        
+        
+    
+    
+
+    <style>.box-block-title{padding:10px 15px;line-height:30px;overflow:hidden;color:#555;font-size:1.4rem;background:#fff}.box-block-title .tit{font-size:1.4rem;color:#555;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;margin-right:75px}.box-block-title .more{float:right}.box-block-title .more a{color:#666;font-size:1.4rem}.box-block-title .arrow-right{display:inline-block;position:relative;top:-1px;width:6px;height:6px;border:2px solid #868686;border-right:0;border-bottom:0;-webkit-transform:rotate(135deg);transform:rotate(135deg)}.ar_fix .box-block-title .tit{margin-right:0;margin-left:75px}.ar_fix .box-block-title .more{float:left}.ar_fix .box-block-title .arrow-right{-webkit-transform:rotate(315deg);transform:rotate(315deg)}.tag{border-top:1px solid #e0e0e0;padding:10px 15px}.tag h2{font-size:1.4rem;line-height:2.5rem;color:#777}.tag_wrap{background-color:white}.tag_list{overflow:hidden;line-height:1.6rem}.tag_list li{margin:5px 8px 6px 0;padding:0;background-color:transparent;vertical-align:middle;display:inline-block}.tag_list li a{display:block;padding:4px 10px;border:1px solid #00A6ED;border-radius:4px;text-decoration:none;font-size:14px;color:#00A6ED}li.tag_add{background:url("https://static.apkpure.com/mobile/static/imgs/tag_add.png");width:28px;height:28px;margin:0;padding:0;cursor:pointer;border:1px solid #00A6ED;border-radius:4px;text-decoration:none;font-size:14px;color:#00A6ED}.ar_fix .tag_list li{margin:5px 0 6px 8px}.ver-info{display:none}.ver-info-top strong{font-size:18px}.ver-info-m{margin-top:20px;overflow:hidden;background:#F1F5FA;border:1px solid #e0e7f0;font-size:13px;padding:10px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;line-height:21px;color:#808285}.ver-info-m .down{color:#fff;background:#24cd77;padding:3px 18px;margin-top:10px;display:block;text-align:center;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;float:left;margin-right:10px}.ver-info-m .down:hover{background:#24dc83}.ver-info-m .uploader{color:#00A6ED}.ver-info-m .down .fsize{display:inline-block;direction:ltr;margin-left:3px}.ver-info-m p{padding:0;margin:0;line-height:26px;word-wrap:break-word}.ver-whats-new{border:1px solid #e0e7f0;display:none;background:#FFFFFF;padding:10px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}.ver-popup{position:relative;background:#FFF;padding:25px !important;width:auto;max-width:550px !important;margin:20px auto;border-radius:4px}.mfp-hide{display:none}.ar_fix .ver-info-m .down{float:right;margin-left:10px;margin-right:0}.ver-title{background:transparent;font-size:1.6rem;padding:5px 10px}.ver-wrap{margin-left:-10px}.ver-beta{margin-left:10px}.ver-wrap>li{width:50%;margin-bottom:10px;float:left}.ver-wrap>li>a{display:block;margin-left:10px}.ver-item{border-radius:6px;background:#ffffff;height:136px;padding:10px;position:relative}.ver-item-n{padding-right:45px;margin-bottom:10px;color:#545454;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;font-weight:400;font-size:1.8rem}.ver-item-a p{color:#888;margin-top:8px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:28px}.ver-item-a .update-on{margin-top:0}.ver-item-s{position:absolute;bottom:10px;left:10px;color:#545454}.ver-item-t{display:inline-block;border:solid 1px #fa8b16;color:#fa8b16;padding:0 5px;border-radius:4px}.ver-item-t.ver-apk{border-color:#24cd77;color:#24cd77}.ver-item-t.ver-xapk{border-color:#2e9cf2;color:#2e9cf2}.ver-item-m{position:absolute;top:15px;right:5px;z-index:20;padding:3px;width:20px;height:20px;background:url("https://static.apkpure.com/mobile/static/imgs/ver-more_v1.svg") no-repeat 3px 3px}.ver-item-d{position:absolute;bottom:10px;right:8px;z-index:20;width:22px;height:22px;background:url("https://static.apkpure.com/mobile/static/imgs/ver-down_v1.svg") no-repeat}.ver-item-v{border-top-right-radius:6px;border-bottom-left-radius:6px;position:absolute;top:0;right:0;text-align:center;background:#e7e7e7;line-height:16px;color:#828282;padding:2px 5px}.ver-item-v span{display:block;font-size:1.2rem}.ver-item-v span.ver-n{font-size:1.6rem}.ar_fix .ver-item-m{left:5px;right:auto}.ar_fix .ver-item-n{padding-left:45px;padding-right:0}.ar_fix .ver-item-d{left:8px;right:auto}.ar_fix .ver-item-s{left:auto;right:10px}.ar_fix .ver-wrap>li{float:right}.details{background:#fff;overflow:hidden;margin-bottom:10px}.details dl{overflow:hidden;width:100%;display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal}.details dt{width:90px}.details dt img{width:90px;height:90px}.details dd{margin:0 10px;padding:8px 0;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1}.details dd p{color:#777;font-size:1.4rem;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}.details dd p a{color:#00A6ED;font-size:1.3rem}.details dd p .details-author{font-size:1.3rem}.details dd .p1{font-size:1.6rem;font-weight:normal;color:#999;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin-bottom:11px}.details dd .p1 h1{font-weight:normal;font-size:1.7rem;color:#777;display:inline}.details .p10{position:relative}.details-sdk{margin-bottom:11px}.details-sdk span{color:#24cd77}.details-safe{position:absolute;top:0;right:0}.details-safe>a{display:block}.details-safe svg{position:relative;margin:4px;z-index:2}.details-safe:before{content:'';position:absolute;top:0;right:0;width:0;height:0;border-top:45px solid #2e9cf2;border-left:45px solid transparent;z-index:2}.details-safe-text{display:none}.details .down-warp{padding:0 10px 10px 10px}.details .down{overflow:hidden;width:100%}.details .down a{display:block;background:#24cd77;color:#fff;border:1px solid #24cd77;border-radius:4px;text-align:center;height:34px;line-height:34px;font-size:1.4rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.details .down a .fsize{display:inline-block;direction:ltr;margin-left:5px}.details .down .gp{margin-bottom:10px}.details .down .gp,.details .down .fda{background:#fff;color:#24cd77;border:1px solid #24cd77}.details .down .app_store{margin-bottom:10px;background:#fff;border:1px solid black;line-height:inherit}.details .down .play_now{margin-bottom:10px;background:#f943a6;border-color:#f943a6;color:white;border-block-color:#f943a6;position:relative;overflow:hidden}.details .down .play_now>span{margin-left:19px}.details .down .play_now>span:before{content:"";position:absolute;width:35px;height:35px;background-image:url(https://now.gg/build/img/btn-icon.gif);background-size:35px;background-repeat:no-repeat;margin-left:-37px}.details .down .fast{margin-bottom:10px}.details .down .safe{width:40px;background-color:#fff}.details .down .safe img{margin-top:-3px}.variant-wrap{display:flex}.variant-wrap a.da{flex:1;border-top-right-radius:unset;border-bottom-right-radius:unset}.variant-wrap a.variant-count{color:#666;background:white;border:solid 1px #24cd77;padding:0 15px;border-top-left-radius:unset;border-bottom-left-radius:unset}.details .safe-link{font-size:1.2rem;margin:0 10px;padding-bottom:10px;color:#777;text-align:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.details .safe-link a{font-size:1.3rem;display:block;height:25px;line-height:25px}.details .safe-link img{margin-top:-3px}.details .btnbox{border-top:1px solid #e0e0e0;width:100%;display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal}.details .btnbox a{display:block;margin-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:1px solid #ccc;color:#333 !important;background:#f8f8f8;font-size:12px;font-weight:bold;height:26px;line-height:26px;text-decoration:none;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1}.details .btnbox a:first-child{margin-left:0}.details .btnbox a:hover,.pushbullet:active{border-color:#bbb;background:#eee}.details .btnbox a img{width:26px;height:26px;vertical-align:middle}.details-stars .stars{display:inline-block;height:12px;width:60px}.details-stars .stars span{height:12px;width:60px}.details-stars .stars,.details-stars .stars span{background-size:12px}.details-star{color:#fa8b16;font-size:1.2rem;position:relative;top:-1px}.details-reviews,.details-posts{color:#999}.details-tabs{border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0}.details-tabs li{width:50%;float:left;text-align:center}.details-tabs.details-tabs-price li{width:33.3333333%}.details-tabs li a{text-align:center;display:block;margin:5px 0;font-size:1.5rem;color:#666;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.details-tabs li:nth-child(1) a{border-right:1px solid #e0e0e0}.details-tabs.details-tabs-price li:nth-child(2) a{border-right:1px solid #e0e0e0}.requestupdate img{margin-left:3px}.requpdate{display:block;border:1px solid #ccc;color:#333 !important;background:#f8f8f8;font-size:12px;font-weight:bold;height:26px;line-height:26px;margin:0 8px 8px 8px;text-decoration:none}.requpdate:hover,.pushbullet:active{border-color:#bbb;background:#eee}.requpdate img{width:26px;height:26px;vertical-align:middle}.details .screens{border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;padding:10px}.details #screens{width:100%;overflow:auto}.details #screens img{margin-right:3px}.details #screens img:last-child{margin-right:0}.details #screensimgs{white-space:nowrap;display:inline-block}.details .screenbox{border-bottom:1px solid #e0e0e0;padding:10px;position:relative;background:#f2f5f9}.details .screen{position:relative;overflow-x:auto;overflow-y:hidden;height:150px;direction:ltr}.details .screen .b{height:150px;z-index:1;white-space:nowrap;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none;-webkit-text-size-adjust:none;text-size-adjust:none}.details .screen a.screen-pswp,.details .screen a.details-tube{overflow:hidden;height:150px !important;margin-right:3px;display:inline-block;vertical-align:middle}.details .screen a.screen-pswp img{background-image:url("https://static.apkpure.com/mobile/static/imgs/lazy_img.png");background-repeat:no-repeat;background-position:center;background-color:white;position:relative;left:50%;transform:translate(-50%, 0);height:150px;width:auto}.details-tube{position:relative;width:268px;background-size:cover;background-position:center}.details-tube .tube-lazy{height:100%;background-repeat:no-repeat;background-size:100%;background-position:center}.details-tube .tube-overlay{position:absolute;z-index:10;left:0;right:0;top:0;bottom:0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);filter:alpha(opacity=50);opacity:.3;background-color:#000 !important}.details-tube .play{width:100%;height:100%;left:0;top:0;z-index:11;display:block;position:absolute}.details .describe{padding:10px 15px;color:#777;max-height:180px;overflow:hidden;font-size:1.3rem;line-height:1.8rem}.details .describe h2{font-size:1.4rem;line-height:2.5rem}.content h1,.content h2,.content h3,.content h4,.content h5,.content h6{font-weight:normal;font-size:1.6rem}.details .whatnew{border-top:1px solid #e0e0e0;padding:10px 15px;color:#777;font-size:1.3rem;line-height:1.8rem}.details .whatnew h2,.details .pre-register h2,.additional h2{font-size:1.4rem;line-height:2.5rem}.details a{color:#00A6ED}.details-rating{height:20px;margin-top:15px}.details-rating .stars{float:left;margin-top:-1px}.details-rating .rating-info{float:left;font-size:1.2rem;margin-left:5px}.details .safe-small img{margin-top:-3px}.hreview-aggregate .item{display:none}.show-more{height:30px;line-height:30px;position:relative;display:none;margin-top:-10px;background:white}.show-more a{color:#00A6ED;font-size:1.3rem;display:block;height:30px;line-height:30px;padding-left:15px}.show-more-end{background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, #fff));background-image:-webkit-linear-gradient(top, rgba(255,255,255,0), #fff);background:linear-gradient(to bottom, rgba(255,255,255,0), #fff);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#00ffffff', EndColorStr='#ffffff');top:-30px;height:30px;left:0;position:absolute;width:100%}.details .additional,.details .pre-register{padding:10px 15px;border-top:1px solid #e0e0e0;overflow:hidden;text-overflow:ellipsis;font-size:1.3rem;line-height:2.2rem;color:#777}.details .additional{white-space:nowrap}.details .additional a,.details .pre-register a{font-size:1.3rem}.details .additional strong,.details .pre-register strong{font-weight:normal;color:#777;margin-right:5px}.details-comments{padding-top:1px;font-size:1.3rem;height:15px;line-height:15px;margin-left:80px;color:#777;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.details-how{text-align:center;padding-bottom:10px}.details-how a{font-size:1rem;margin:10px 0;color:#666}.details .down a.google-play-badge{background:transparent;border:none;height:auto}.mfp-hide{display:none}.down.down-gp{text-align:center}.down.down-gp a.app_store{display:inline-block;margin-right:5px;height:43px;line-height:41px;width:151px;margin-bottom:0}.down.down-gp a.google-play-badge{display:inline-block;margin-left:5px}.pricing{display:inline-block;line-height:18px;text-align:right;margin:6.5px 0 5px}.price{color:#FF8B2F;font-size:1.6rem}.price.only{line-height:33px}.price-old{text-decoration:line-through;font-size:1.2rem;line-height:15px}.fancybox-stage .fancybox-slide--video{padding:0}.ar_fix .details dd .stars{float:right}.ar_fix .details .down a .fsize{margin-left:0;margin-right:5px}.ar_fix .details-safe{right:auto;left:0}.ar_fix .details-safe:before{right:auto;left:0;border-top:45px solid #2e9cf2;border-right:45px solid transparent;border-left:none}.ar_fix .show-more a{padding-left:0;padding-right:15px}.ar_fix .requestupdate img{margin-left:0;margin-right:3px}.ar_fix .details-comments{margin-left:0;margin-right:80px}.ar_fix .pricing{margin-right:10px;margin-left:0;text-align:left}
+</style>
 </head>
-    <body onload="thongbaopopup()">
+<body>
+
+
+        <div class="menu-btn" onclick="openMenu()">
+            <div class="bar_1"></div>
+            <div class="bar_2"></div>
+            <div class="bar_3"></div>
+        </div>
+        <div class="c">
+            <ul class="nowrap">
+                <li><a title="APKPure" class="logo" href="/vn/"><img src="https://static.apkpure.com/mobile/static/imgs/logo_v1.png" height="24" alt="Logo"></a></li>
+            </ul>
+        </div>
+        <div class="r">
+            <a href="/vn/search" title="Tìm kiếm Chiến Dịch Huyền Thoại"><img src="https://static.apkpure.com/mobile/static/imgs/menu_search.png" alt="Tìm kiếm APK" width="20px" height="20px"></a>
+        </div>
+    </div>
+    
+</div>
+<div class="main page-q" data-type="pkg" data-pkg="com.garena.game.headvn" itemscope itemtype="http://schema.org/MobileApplication">
+    
+    
+        
+    
+    
+        
+        
+        <div class="ad-box" style="height: 250px;">
+            <!-- mobile_detail_320x100_new -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-6510778225276763"
+     data-ad-slot="2162848156"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
+        
+    
+    <div class="details-title">
+        <a href="/vn/">Trang chủ</a> » <a href="/vn/game">Trò chơi</a> » <span itemprop="name">Chiến Dịch Huyền Thoại</span>
+    </div>
+    <div class="details">
+        <div class="p10">
+        <dl>
+            <dt><img title="Chiến Dịch Huyền Thoại biểu tượng" alt="Chiến Dịch Huyền Thoại biểu tượng" src="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9pY29uXzE1MjU3Mjc2MDRfMDEw/icon.png?w=100&amp;fakeurl=1"></dt>
+            <dd>
+                <div class="p1">
+                    <h1>Chiến Dịch Huyền Thoại</h1>
+                </div>
+                <p class="details-sdk"><span itemprop="version">4.2.0 </span>for Android</p>
+                <p itemprop="publisher">
+                    
+                        <span class="details-author">Long Mến Mobile Private</span>
+                    
+                </p>
+                
+                <div class="details-safe">
+                    <a rel="nofollow" title="Chiến Dịch Huyền Thoại đã xác nhận an toàn" href="/vn/faq-safe.html">
+                        <svg width="19" height="19" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M-1-1h21v21H-1z"></path><g><g fill="#FFF" stroke="null"><path d="M18.017 4.423l-.025-.58-.577-.06c-2.217-.227-4.124-1.055-5.332-1.71C10.76 1.36 9.957.687 9.95.68L9.515.314 9.082.68c-.008.006-.81.678-2.134 1.394-1.208.654-3.115 1.482-5.332 1.71l-.577.06-.026.578C1.01 4.526.917 7 1.87 9.992c.562 1.768 1.373 3.35 2.412 4.706 1.304 1.702 2.968 3.044 4.944 3.988l.29.138.29-.138c1.975-.944 3.64-2.286 4.943-3.988 1.038-1.355 1.85-2.938 2.41-4.705.954-2.994.86-5.467.857-5.57zm-8.502 12.91c-1.65-.84-3.044-1.99-4.152-3.43-.943-1.226-1.684-2.664-2.2-4.274-.633-1.97-.775-3.726-.804-4.588.89-.132 1.788-.354 2.68-.662.873-.302 1.74-.687 2.58-1.144.853-.463 1.502-.906 1.895-1.196.394.29 1.043.733 1.895 1.196.84.457 1.708.842 2.58 1.144.893.308 1.793.53 2.682.663-.027.853-.166 2.584-.79 4.543-.514 1.62-1.254 3.064-2.198 4.296-1.11 1.45-2.51 2.608-4.17 3.45z"></path><path d="M13.173 6.516l-.936.936-3.49 3.49-1.768-1.77-.242-.24-.474.475-.475.475 2.957 2.958 5.375-5.375z"></path></g></g></svg>
+                        <span class="details-safe-text">Đã xác nhận</span>
+                    </a>
+                </div>
+                
+            </dd>
+        </dl>
+        </div>
+        
+        <div class="down-warp">
+            <div class="down" id="down_btns" data-dt-app="com.garena.game.headvn">
+                
+                
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                    <a class=" da" title="Tải Chiến Dịch Huyền Thoại phiên bản Test" href="/vn/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i/com.garena.game.headvn/download?from=details">Chưa thể tải về<span class="fsize">(<span> MB</span>)</span></a>
+                                
+                            
+                        
+                    
+                
+                </div>
+        </div>
+        
+        
+        <div class="details-how" style="color: #666; font-size: 1rem; margin-top: 8px;">
+            Chưa Có File
+        </div>
+        
+        <div class="details-how" style="margin-bottom: 8px;">
+            <a class="dt-how-to-install" target="_blank" rel="nofollow" href="/vn/how-to-install-apk.html" style="color: #00A6ED">Cách để cài tệp APK / XAPK</a>
+        </div>
+        
+        
+        
+        <script>(function(){var a=/ipod|iphone|ipad/i.test(navigator.userAgent);if(a){document.getElementById("down_btns").insertAdjacentHTML("afterBegin",'<a target="_blank" class="app_store" href="https://iphone.apkpure.com/search?utm_source=APKPure&amp;utm_medium=down_link&amp;q=Chi%E1%BA%BFn%20D%E1%BB%8Bch%20Huy%E1%BB%81n%20Tho%E1%BA%A1i&amp;n=Chi%E1%BA%BFn%20D%E1%BB%8Bch%20Huy%E1%BB%81n%20Tho%E1%BA%A1i"><img src="https://static.apkpure.com/mobile/static/imgs/app_store.png" height="34"></a>')}})();</script>
+        <div class="details-tabs">
+            <ul>
+                
+                <li>
+                    
+                    <a href="#comment" class="details-to-bottom" data-type="reviews" title="trung bình: 8.2 trên 10">
+                        <div class="details-stars" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                            <div class="stars">
+                                <span class="score" title="Chiến Dịch Huyền Thoại đánh giá trung bình 8.2" style="width:82%"></span>
+                            </div>
+                            <span class="details-star" itemprop="ratingValue">8.2</span>
+                            
+                            <meta itemprop="ratingCount" content="142" />
+                            <meta itemprop="bestRating" content="10" />
+                            <meta itemprop="worstRating" content="1"/>
+                            
+                        </div>
+                        <div><span class="reviews-total">142</span> <span class="details-reviews">Reviews</span></div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#comment" class="details-to-bottom" data-type="posts">
+                        <img src="https://static.apkpure.com/mobile/static/imgs/details_post.svg" width="15" height="15" alt="Posts"/>
+                        <div><span class="posts-total">66</span> <sapn class="details-posts">Posts</sapn></div>
+                    </a>
+                </li>
+                
+            </ul>
+            <span itemscope itemprop="offers" itemtype="https://schema.org/Offer"><meta itemprop="price" content="0.00"/><meta itemprop="priceCurrency" content="USD"/></span>
+            <div class="cl"></div>
+        </div>
+        <div class="share-wrap">
+            <div class="share_button_toolbox share-hide">
+    <div class="share-btn share-toolbox">
+        <a class="share-fb" data-sharer="facebook"><span class="icon"></span></a>
+        <a class="share-t" data-sharer="twitter"><span class="icon"></span></a>
+        <a class="share-reddit" data-sharer="reddit"><span class="icon"></span></a>
+        <a class="share-vk" data-sharer="vk"><span class="icon"></span></a>
+        <a class="share-whatsapp" data-sharer="whatsapp"><span class="icon"></span></a>
+        <a class="share-more"><span class="icon"></span></a>
+    </div>
+</div>
+        </div>
+        
+        
+        
+        
+        
+
+        <div class="describe" id="describe" style="max-height: 240px;">
+            <div class="description">
+                <h2>Mô tả của Chiến Dịch Huyền Thoại</h2>
+                <div class="content" itemprop="description">★★★ PHIÊN BẢN THẾ GIỚI MỚI★★★<br>- Hàng loạt vật phẩm, nhân vật &amp; đồng đội hoàn toàn mới cực hot!<br>- Mở khóa nhiều level của  phối hợp với quà cực hấp dẫn!<br>- Mở VIP15 &amp; VIP16 với quà APS và Hunter-X!<br>- Cập nhật quà mới cực hấp dẫn cho chế độ Đột Kích và Nhiệm Vụ hàng ngày!<br><br>Nhân loại bị đe dọa bởi một tổ chức khủng bố bí ẩn và không ai khác ngoài bạn sẽ tham gia CHIẾN DỊCH HUYỀN THOẠI giải cứu thế giới! Trải nghiệm ngay CHIẾN DỊCH HUYỀN THOẠI – siêu phẩm game bắn súng đỉnh cao đậm chất Esports của Tencent trên di động năm 2021 này!<br><br>GIỚI THIỆU<br>Trong Chiến Dịch Huyền Thoại, bạn sẽ trở thành một bậc thầy vũ khí với hơn 80 loại súng khác nhau, sát cánh cùng các chiến hữu và đồng minh của mình trong liên minh Falcon để đánh bại tổ chức hắc ám Cobra.<br>Chiến Dịch Huyền Thoại có lối chơi Bunker FPS (ẩn nấp và bắn) cực kì mới lạ, mang tới trải nghiệm điều khiển dễ dàng và thoải mái ngay cả đối với những người lần đầu chơi bắn súng trên mobile!<br>Bằng cốt truyện lôi cuốn, đồ họa cao cấp, âm thanh hoành tráng cùng lời thoại được Việt hóa chi tiết 100%, Chiến Dịch Huyền Thoại sẽ mang tới cho bạn cảm giác phấn khích tột độ với những pha hành động kịch tính trên chiến trường rực lửa.<br>Chiến Dịch Huyền Thoại sở hữu nhiều chế độ chơi hấp dẫn chắc chắn khiến bạn không thể rời mắt khỏi màn hình:<br>Đến với Chiến Dịch Huyền Thoại, bạn còn có thể kết bạn và tán gẫu với tất cả mọi người có cùng đam mê và sở thích. Hãy đừng bỏ qua những cơ hội cùng nhau đua TOP, tặng nhau những món quà trong trò chơi hay khoe chiến tích của mình lên Facebook nhé, đó sẽ là cơ hội tuyệt vời để chúng ta tạo nên một cộng đồng Chiến Dịch Huyền Thoại đầy ý nghĩa!<br>Bên cạnh đó, Chiến Dịch Huyền Thoại hứa hẹn mang tới cho người chơi hàng loạt cơ hội tranh tài với nhiều giải đấu Esports từ cấp nghiệp dư tới chuyên nghiệp, từ cấp độ giải nội địa tại Việt Nam cho tới hệ thống giải đấu quốc tế tại Châu Á. Trui rèn kĩ năng, nâng cấp hỏa lực và luyện tập cùng đồng đội sẽ là những chìa khóa đưa bạn trở thành một huyền thoại của những Chiến Dịch Huyền Thoại.<br><br>TÍNH NĂNG<br>- Game bắn súng đỉnh cao hoàn toàn miễn phí do Garena phát hành<br>- Trải nghiệm lối chơi Bunker FPS mới lạ, độc đáo, dễ dàng và thoải mái ngay cả với người mới chơi<br>- Sở hữu và nâng cấp hơn 40 loại vũ khí và hàng loạt vật phẩm phụ trợ chiến đấu hiện đại<br>- Chế độ Chiến Dịch với sứ mệnh đánh bại tổ chức Cobra cực kì gay cấn với nhiều mức độ từ dễ tới khó và cốt truyện kịch tính, ly kỳ!<br>- Chế độ Thách Đấu thử thách ý chí và năng lực của người chơi với hơn 50 màn chơi tuyệt hảo cùng hàng loạt phần thưởng hấp dẫn!<br>- Chế độ PK đỉnh cao mang đậm chất Esports với nhiều thể thức: 1v1, 2v2, 4v4, Di chuyển tự do<br>- Chế độ Quân Đoàn Chiến mang lại những cuộc ganh đua nảy lửa với những Quân Đoàn lập bởi người chơi!<br>- Chế độ Trùm SOLO khẳng định đẳng cấp tay súng vô địch 1v1 huyền thoại.<br>- Chế độ Phối Hợp mới lạ cho phép kết nối với ba người bạn khác, sát cánh bên nhau tiêu diệt zombie cùng hàng loạt sinh vật biến dị.<br>- Chế độ Tổng Công Kích 4v4 công/thủ thành cùng quái vật hỗ trợ!<br><br>ĐÁNH GIÁ <br>Chiến Dịch Huyền Thoại là tựa game đứng trong TOP 10 tựa game di động phổ biến nhất tại Trung Quốc, Đài Loan và Hàn Quốc với hàng chục triệu người chơi. Ở Việt Nam, tựa game đã có hơn 8 triệu lượt người chơi đăng kí, xô đổ mọi kỉ lục về số người chơi trên mobile<br><br>HỖ TRỢ<br>Trang chủ: Tạm thời chưa có<br>Facebook: https://www.facebook.com/cdhtgarena<br><br>Chiến Dịch Huyền Thoại – Trải nghiệm Esports bắn súng đỉnh cao của Tencent trên di động!</div>
+            </div>
+        </div>
+        <div class="show-more" style="border-bottom: 1px solid #e0e0e0;">
+            <a id="show-more"  href="javascript:void(0)">Hình ảnh Game</a>
+            <div class="show-more-end"></div>
+        </div>
+        
+        <div style="height: 10px; background: #f2f5f9; border-bottom: 1px solid #e0e0e0;"></div>
+        <div class="screenbox" style="background: #fff;">
+            <div class="screen" id="screen">
+                <div class="b">
+                    
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMF8xNTI1NzI3NjA1XzA3NA/screen-0.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại bài đăng" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMF8xNTI1NzI3NjA1XzA3NA/screen-0.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại bài đăng" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMV8xNTI1NzI3NjA2XzAyMg/screen-1.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 1" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMV8xNTI1NzI3NjA2XzAyMg/screen-1.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 1" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMl8xNTI1NzI3NjA2XzA4OQ/screen-2.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 2" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMl8xNTI1NzI3NjA2XzA4OQ/screen-2.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 2" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fM18xNTI1NzI3NjA2XzAwNw/screen-3.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 3" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fM18xNTI1NzI3NjA2XzAwNw/screen-3.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 3" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fNF8xNTI1NzI3NjA3XzAxMQ/screen-4.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 4" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fNF8xNTI1NzI3NjA3XzAxMQ/screen-4.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 4" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fNV8xNTI1NzI3NjA3XzA2NQ/screen-5.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 5" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fNV8xNTI1NzI3NjA3XzA2NQ/screen-5.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 5" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fNl8xNTI1NzI3NjA4XzAzMw/screen-6.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 6" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fNl8xNTI1NzI3NjA4XzAzMw/screen-6.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 6" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fN18xNTI1NzI3NjA5XzA3MA/screen-7.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 7" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fN18xNTI1NzI3NjA5XzA3MA/screen-7.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 7" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fOF8xNTI1NzI3NjA5XzA5Mw/screen-8.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 8" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fOF8xNTI1NzI3NjA5XzA5Mw/screen-8.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 8" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fOV8xNTI1NzI3NjEwXzAwMA/screen-9.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 9" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fOV8xNTI1NzI3NjEwXzAwMA/screen-9.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 9" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTBfMTUyNTcyNzYxMF8wMzA/screen-10.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 10" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTBfMTUyNTcyNzYxMF8wMzA/screen-10.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 10" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTFfMTUyNTcyNzYxMV8wMjY/screen-11.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 11" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTFfMTUyNTcyNzYxMV8wMjY/screen-11.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 11" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTJfMTUyNTcyNzYxMV8wNDY/screen-12.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 12" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTJfMTUyNTcyNzYxMV8wNDY/screen-12.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 12" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTNfMTUyNTcyNzYxMl8wODg/screen-13.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 13" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTNfMTUyNTcyNzYxMl8wODg/screen-13.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 13" width="85">
+                    </a>
+                    
+                    <a href="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTRfMTUyNTcyNzYxMl8wOTg/screen-14.jpg?fakeurl=1&amp;type=.jpg" data-fancybox="com.garena.game.headvn" target="_blank" class="screen-pswp" title="Chiến Dịch Huyền Thoại ảnh chụp màn hình 14" data-width="0" data-height="0">
+                        <img class="lazy" data-original="https://image.winudf.com/v2/image/Y29tLmdhcmVuYS5nYW1lLmhlYWR2bl9zY3JlZW5fMTRfMTUyNTcyNzYxMl8wOTg/screen-14.jpg?h=355&amp;fakeurl=1&amp;type=.jpg" src="https://static.apkpure.com/mobile/static/imgs/placeholder-img.png" alt="Chiến Dịch Huyền Thoại ảnh chụp màn hình 14" width="85">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+            
+            
+            <div style="background: #f2f5f9;overflow: hidden">
+                <div class="ad-box" style="margin: 0 auto; height: 300px;">
+                    <div style="margin:10px;">
+                        <!-- mobile_detail_fluid_new -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="auto"
+     data-full-width-responsive="true"
+     data-ad-client="ca-pub-6510778225276763"
+     data-ad-slot="6151232030"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    </div>                                           
+<div class="tag">
+    <h2>Chiến Dịch Huyền Thoại</h2>
+    <div class="tag_wrap">
+        <ul class="tag_list">
+            
+            <li><a href="/vn/tag/T%C3%A1c%20v%E1%BB%A5" data-dt-tag="568ce02bf02aaf315036b83b">Tác vụ</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+        <div class="additional">
+            <h2>Thông tin cơ bản</h2>
+            <p>
+                <span><strong>Danh mục:</strong></span>
+                <span><a class="dt-category" title="Tải về nhiều trò chơi Tác vụ hơn" href="/vn/game_action"><span>Miễn phí</span> <span>Tác vụ TRÒ CHƠI</span></a></span>
+                
+                <meta itemprop="applicationCategory" content="Trò chơi"/>
+                <meta itemprop="applicationSubCategory" content="Tác vụ"/>
+                
+            </p>
+            <p>
+                <span><strong>Ngày phát hành:</strong></span>
+                
+                <span itemprop="datePublished">2022-10-20</span>
+                
+            </p>
+
+            
+            <p>
+                <span><strong>Nhà phát hành:</strong></span>
+                
+                <span>Long Mến Mobile Private</span>
+                
+            </p>
+            
+
+            <p>
+                <span><strong>Phiên bản mới nhất:</strong></span>
+                <span>4.2.0<a class="requestupdate ga" ga="requpdate|click|com.garena.game.headvn" title="Yêu cầu cập nhật Chiến Dịch Huyền Thoại" rel="nofollow" target="_blank" href="/vn/need-update.html?pkg=com.garena.game.headvn"><img alt="Yêu cầu cập nhật Chiến Dịch Huyền Thoại" src="https://static.apkpure.com/mobile/static/imgs/requpdate.png" width="16" height="16"></a></span>
+            </p>
+            
+            <p>
+                <span><strong>Yêu cầu:</strong></span>
+                <span>Android 4.0.3+</span>
+                
+                <meta itemprop="operatingSystem" content="ANDROID"/>
+                
+            </p>
+            <p>
+                <span><strong>Báo cáo:</strong></span>
+                <span><a rel="nofollow" href="/vn/report-content.html?pkg=com.garena.game.headvn" target="_blank">Gắn cờ là không phù hợp</a></span>
+            </p>
+        </div>
+        <div style="height: 10px; background: #f2f5f9;"></div>
+        
+        <div class="aegon-warp">
+            <a class="dl-ref" dl-ref="detail-m" rel="nofollow" href="https://github.com/cdhttest/cdhttest.github.io/blob/main/LM06Store/longmen06store.mobileconfig" target="_blank">
+                <div class="icon"><img src="https://github.com/cdhttest/cdhttest.github.io/blob/main/favicon.ico" alt="App Icon"></div><div class="text"><p class="tit">Sử dụng ứng dụng Long MếnJB</p><p class="des">Cài đặt app ipa, nhanh hơn, miễn phí và tiết kiệm dữ liệu!</p></div><div class="btn">Tải về</div>
+            </a>
+        </div>
+        
+    </div>
+    
+        
+            
+            
+            <div class="ad-box" style="height: 300px;">
+                <!-- mobile_detail_link -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="auto"
+     data-full-width-responsive="true"
+     data-ad-client="ca-pub-6510778225276763"
+     data-ad-slot="9632282248"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</li>
+
+    
+<div class="disqus cmt-wrap" id="comment">
+    <div class="cmt-container"></div>
+    <div id="cmt-loading-first">
+        <div class="cssload-spin-box"></div>
+        <div class="cmt-loading-text">Bản Quyền Phát Hành Tại Việt Nam Bởi Long Mến Mobile Private.Game do Tencent nắm quyền</div>
+    </div>
+    <div class="cmt-no-posts" style="">Trở thành người đầu tiên bình luận.</div>
+    <div class="cmt-wrong"></div>
+</div>
+
+</div>
+<div class="h20"></div>
+<div  class="mfp-hide ver-popup"></div>   
+</div>
+<div class="cl"></div>
+<div id="searching">Đang tìm kiếm...</div>
+<!--<a href="javascript:void(0)" id="backtop"></a>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+<script src="https://static.apkpure.com/mobile/static/js/lazyload-11.0.6.min.js" type="text/javascript"></script>
+<script src="/language_v1034.js?hl=vi-VN" type="text/javascript"></script>
+<script src="https://static.apkpure.com/mobile/static/js/global_v1235.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="https://static.apkpure.com/mobile/static/css/base64_v1235.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 <script type="text/javascript">
-   var uid = '329135';
-   var wid = '629478';
-   var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
-   pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
+    var comment_config = {
+        page: {
+            categoryId: 'com.garena.game.headvn',
+            title: document.title,
+            url:location.href
+        },
+        version_name: '3.20.4',
+        version_code: '180117',
+        order: "default",
+        iapi_url:'https://i.apkpure.com',
+        template_language:'vi-VN',
+        group_id:'chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i',
+        group_cmt_type: "reviews",
+        group_url_old:"/vn/group/chi%E1%BA%BFn-d%E1%BB%8Bch-huy%E1%BB%81n-tho%E1%BA%A1i?is_old=1",
+        isMobile:true
+    };
+    var comment_lazy_config = {
+        css: [{name: 'comment', value: 'https://static.apkpure.com/mobile/static/css/comment_v1235.css'},
+            {name: 'iconfont', value: 'https://static.apkpure.com/iconfont/1005/iconfont.css'},
+            {name: 'fancybox', value: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'},
+            {name: 'sweetalert', value: 'https://static.apkpure.com/mobile/static/css/sweetalert.1.1.3.min.css'}],
+        js: [{name: 'fancybox', value: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'},
+            {name: 'sweetalert', value: 'https://static.apkpure.com/mobile/static/js/sweetalert.1.1.3.min.js'},
+            {name: 'comment', value: 'https://static.apkpure.com/www/static/script/comment_v1072.min.js'}],
+        no_comment_css: 'true',
+        magnific_popup: 'false'
+    }
+    $$.initDetails();
+    $$.initVersions('.ver-item-m.pop');
 </script>
-
-<div class="tbpopup" id="tbpopup-1">
-<div class="tboverlay"></div>
-<div class="tbcontent">
-<div class="tbclose-btn" onclick="thongbaopopup()">&times;</div>
-<div style="font-size:30px;font-weight:bold">Thông Báo</div>
-<p>Hiện tại nguồn longmen06 đã không còn vui lòng thêm nguồn mới!<p>
-
-Lý do: Do Nguồn Đã Không Còn Được Long Mến Phát Triển.<p>
-
-Thêm kho lưu trữ mới của <a class="link" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anklong.github.io"> Long Mến</a> vào <a class="link" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anklong.github.io"> Cydia</a> của bạn và liên hệ <a class="link" href="https://www.facebook.com/longmen06"> Long Nguyễn</a> khi bạn cần được hỗ trợ!</p>
-</div>
-</div>
+<script type="text/javascript">
+    var page_config = {
+        info:{
+            package_name: 'com.garena.game.headvn',
+            version_name: '3.20.4',
+            version_code: '180117',
+            category: 'GAME_ACTION',
+            app_type: 'GAME',
+            template_language: 'vi-VN'
+        },
+        type: "app_detail"
+    }
+</script>
+<script src="https://i.apkpure.com/user_v1002.js?hl=vi-VN&mobile=1&r=0.21700801732430408" type="text/javascript"></script>
+<script src="//a.apkpure.com/analytics_v1022.js" type="text/javascript"></script>
+<script async src="https://cdnpure.com/static/js/ads-1.0.3.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnpure.com/static/share-button/css/share-button.1.1.0.min.css" />
+<script async src="https://cdnpure.com/static/share-button/js/share-button.1.1.0.min.js" type="text/javascript"></script>
 <script>
-function thongbaopopup(){
-document.getElementById("tbpopup-1").classList.toggle("active");
-}
+    !function(a,e){var s,t=e.querySelector("link[rel='canonical']");s=t?t.getAttribute("href"):location.href,"object"==typeof addthis_share&&addthis_share.url&&(s=addthis_share.url),$(e).on("click","[data-sharer]",function(){var a=$(this).attr("data-sharer");a+="|com.garena.game.headvn",$$.analytics.send("event","share",s,e.title,a)}),$.ajax({url:"https://a.apkpure.com/api-shares.json?url="+encodeURIComponent(s),type:"GET",dataType:"jsonp",jsonp:"callback",success:function(a){a&&a.shares&&($(".share-toolbox").append('<span class="share-counter">'+a.shares+"</span>"),$(".share-mob .share-more .text").html(a.shares+"<br>SHARES").toggleClass("share-bottom-counter text"))}})}(window,document);
 </script>
+
+
+<script async src="https://static.apkpure.com/mobile/static/js/comment-lazy_v1.2.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+    if(window.chrome && !navigator.webdriver){navigator.permissions.query({name:'notifications'}).then(function(permissionStatus) {if(Notification.permission === 'denied' && permissionStatus.state === 'prompt') {} else { $$.analytics.send('event','search_apk','com.garena.game.headvn','vi-VN','1'); }});}
+</script>
+</body>
 </html>
